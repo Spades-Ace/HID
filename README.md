@@ -8,11 +8,14 @@ For android with or without nethunter
 
 Usb gadget test https://github.com/tejado/android-usb-gadget or In repository
 
-Location to push file in adroid root directory. /data/local/tmp
+Location to push file in android root directory. /data/local/tmp
 
 >  adb push hid-gadget-test /data/local/tmp
+To give commands use Termux https://play.google.com/store/apps/details?id=com.termux&hl=en_IN&gl=US
+Use su
 
-su :/data/data/com.termux/files/home # cd /da cd /data/local/tmp/ :/data/local/tmp # ls 
+>cd /data/local/tmp/
+>ls 
 hid-gadget-test  
 
 >chmod +X hid-gadget-test 
