@@ -14,7 +14,7 @@ echo period | ./hid-gadget-test /dev/hidg1 keyboard
 echo c o m | ./hid-gadget-test /dev/hidg1 keyboard
 echo slash | ./hid-gadget-test /dev/hidg1 keyboard
 echo s p a d e s | ./hid-gadget-test /dev/hidg1 keyboard
-echo left-shift minus | ./hid-gadget-test /dev/hidg1 keyboard
+echo minus | ./hid-gadget-test /dev/hidg1 keyboard
 echo a c e | ./hid-gadget-test /dev/hidg1 keyboard
 
 
