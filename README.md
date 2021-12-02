@@ -16,7 +16,10 @@ Location to push file in android root directory. /data/local/tmp
 
 
 To give commands use Termux https://play.google.com/store/apps/details?id=com.termux&hl=en_IN&gl=US
-Use su
+
+
+Super user reqired 
+>su
 
 >cd /data/local/tmp/
 >ls 
